@@ -1,0 +1,1 @@
+#This is a webstore application used to practice using ruby on rails.
