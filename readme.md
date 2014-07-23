@@ -1,1 +1,4 @@
-#This is a webstore application used to practice using ruby on rails.
+depot_app
+=========
+
+Web store application to practice using components of the rails framework
