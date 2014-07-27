@@ -15,6 +15,10 @@ class ProductsControllerTest < ActionController::TestCase
     get :index
     assert_response :success
     assert_not_nil assigns(:products)
+    assert_select 'tr', minumum: 3
+    assert_select '.list_description dt', 3
+    assert_select '.list_actions a', minimum: 9
+    assert_select '.list_actions a', 'Show'
   end
 
   test "should get new" do
