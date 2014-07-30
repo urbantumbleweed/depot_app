@@ -12,6 +12,16 @@
     border-bottom: 3px dotted #77d;
   }
 
+  /* For the visit counts*/
+  .counter {
+    float: right;
+    font-size: smaller;
+    font-weight: lighter;
+    vertical-align: top;
+    margin-top: -5px;
+
+  }
+
   /* For each entry in the catalog */
   .entry {
     overflow: auto;
