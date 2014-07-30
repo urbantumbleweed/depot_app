@@ -8,7 +8,7 @@ module StoreVisit
     return session[:store_visit_counter] += 1
   end
 
-  def counter_greater_than_five
+  def counter_greater_than_five?
     session[:store_visit_counter] > 5
   end
 
